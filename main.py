@@ -1,7 +1,9 @@
 from server import mcp
 
-from utils import create_user
+from utils import call_defra_docs
 
 # Entry point to run the server
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(
+        transport="sse",
+    )

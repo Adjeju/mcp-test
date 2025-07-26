@@ -1,3 +1,6 @@
 /cursor_settings_example.json
 /mcp_server_config.json
 /__pycache__
+
+.env
+venv
